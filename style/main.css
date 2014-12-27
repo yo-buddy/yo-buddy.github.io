@@ -8,6 +8,7 @@ html, body {
   font-size: 18px; }
 
 body {
+  background:url('../images/water-drops-on-blue-glass.jpg') fixed;
   margin: 80px 0; 
 }
 
@@ -54,7 +55,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: black;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -344,15 +345,12 @@ hr {
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
-
-
     background: #ede0c8;
     background: url('../images/DSC_1036.jpg');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-
-    
+   
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
