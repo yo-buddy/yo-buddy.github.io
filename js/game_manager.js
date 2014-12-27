@@ -184,6 +184,7 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
+      alert("You have wished SriVatsav on his Birthday..!! \n Good play btw..");
     }
 
     this.actuate();

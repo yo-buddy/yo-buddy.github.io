@@ -8,17 +8,16 @@ html, body {
   font-size: 18px; }
 
 body {
-  background:url('../images/water-drops-on-blue-glass.jpg') fixed;
+  background:url('../images/background.jpg') fixed;
   margin: 80px 0; 
 }
-
 .heading:after {
   content: "";
   display: block;
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -151,7 +150,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background:black;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -222,7 +221,8 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: cyan;
+}
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -316,57 +316,53 @@ hr {
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
-    background: url('../images/kama.PNG');
+    background: url('../images/1.PNG');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
-    background: url('../images/kama1.PNG');
+    background: url('../images/2.PNG');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     background: #ede0c8;
-    background: url('../images/vatsav.PNG');
+    background: url('../images/3.PNG');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
     background: #ede0c8;
-    background: url('../images/vatsav1.PNG');
+    background: url('../images/4.PNG');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
     background: #ede0c8;
-    background: url('../images/vatsav2.PNG');
+    background: url('../images/5.jpg');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
     background: #ede0c8;
-    background: url('../images/DSC_1036.jpg');
+    background: url('../images/6.png');
     font-size: 0px;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
    
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+    background: #ede0c8;
+    background: url('../images/7.jpg');
+    font-size: 0px;
+    background-size: contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-256 .tile-inner{
+    background: #ede0c8;
+    background: url('../images/8.png');
+    font-size: 0px;
+    background-size: contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
